@@ -225,7 +225,7 @@ A,mutt-wizard-git,"is a light-weight terminal-based email system."
 ,pulsemixer,"tools"
 ,pv,"tools"
 ,qemu,"tools"
-,qemu-guest-agent
+,qemu-guest-agent,"tools"
 ,kitty-terminfo,"tools"
 ,lazygit,"tools"
 ,lftp,"tools"
