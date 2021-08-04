@@ -1,6 +1,7 @@
 #!/bin/sh
-# Luke's Auto Rice Boostrapping Script (LARBS)
-# by Luke Smith <luke@lukesmith.xyz>
+# Luke's Auto Rice Boostrapping Script (ArchWater)
+# for of luke smith larbs <luke@lukesmith.xyz>
+# by Virgilio Murillo <virgiliomurilloochoa1@gmail.com>
 # License: GNU GPLv3
 
 ### OPTIONS AND VARIABLES ###
@@ -170,7 +171,7 @@ preinstallmsg || error "User exited."
 refreshkeys || error "Error automatically refreshing Arch keyring. Consider doing so manually."
 
 for x in curl base-devel git ntp zsh; do
-	dialog --title "LARBS Installation" --infobox "Installing \`$x\` which is required to install and configure other programs." 5 70
+	dialog --title "ArchWater Installation" --infobox "Installing \`$x\` which is required to install and configure other programs." 5 70
 	installpkg "$x"
 done
 
