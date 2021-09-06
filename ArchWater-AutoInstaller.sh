@@ -244,7 +244,19 @@ killall pulseaudio; sudo -u "$name" pulseaudio --start
 # serveral important commands, `shutdown`, `reboot`, updating, etc. without a password.
 newperms "%wheel ALL=(ALL) ALL #LARBS
 %wheel ALL=(ALL) NOPASSWD: /usr/bin/shutdown,/usr/bin/reboot,/usr/bin/systemctl suspend,/usr/bin/wifi-menu,/usr/bin/mount,/usr/bin/umount,/usr/bin/pacman -Syu,/usr/bin/pacman -Syyu,/usr/bin/packer -Syu,/usr/bin/packer -Syyu,/usr/bin/systemctl restart NetworkManager,/usr/bin/rc-service NetworkManager restart,/usr/bin/pacman -Syyu --noconfirm,/usr/bin/loadkeys,/usr/bin/paru,/usr/bin/pacman -Syyuw --noconfirm"
-sudo cp profile /etc/profile
+dialog --title "display manager" --yesno "do you want to have the display manager start on startup?\nthe default option is yes.\nthis will modify /etc/profile file, so if you want to preserve previous configurations of you want to conifgure this file yoursel select no" 14 70
+if [[ $? == 1 ]] 
+then
+	sudo cp profile /etc/profile
+fi
+dialog --title "zsh configuration" --yesno "do you want to overwrite the zsh configuration?" 17 70
+
+if [[ $? == 1 ]] 
+then
+	sudo rsync -aAXv --delete zdotdir/ ~/.config/zsh/
+	sudo rsync -aAXv --delete etcZdotdir/ /etc/zsh/
+fi
+
 # Last message! Install complete!
 finalize
 clear
