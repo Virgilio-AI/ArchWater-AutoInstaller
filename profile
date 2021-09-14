@@ -51,7 +51,7 @@ unset MANPATH
 #export XDG_CONFIG_HOME="$HOME/.config"
 export ZDOTDIR="$HOME/.config/zsh"
 
-PATH=$PATH:~/.local/bin:~/.local/bin/statusbar ;
+PATH=$PATH:~/.local/bin:~/.local/bin/statusbar:~/.local/bin/utilities ;
 EDITOR="nvim"
 echo "Startx?? (y,n)"
 read doit 
