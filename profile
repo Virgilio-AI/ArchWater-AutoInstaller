@@ -52,6 +52,9 @@ unset MANPATH
 export ZDOTDIR="$HOME/.config/zsh"
 
 PATH=$PATH:~/.local/bin:~/.local/bin/statusbar:~/.local/bin/utilities ;
+PATH=$PATH:~/.local/bin/windowsPrograms
+PATH=$PATH:~/.local/bin/pythonUtilities
+PATH=$PATH:~/.local/bin/dwmUtilities
 EDITOR="nvim"
 echo "Startx?? (y,n)"
 read doit 

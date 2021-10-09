@@ -58,6 +58,7 @@ alias create-notebook='python $HOME/.local/bin/create-notebook.py'
 
 shutdown()
 {
+# if number of parameters equal cero
 	if [ $# -eq 0 ]  ; then 
 		shutdown -c
 		sh gitAutoCommit.sh
@@ -70,6 +71,7 @@ shutdown()
 # commit all before reboot
 reboot()
 {
+# if number of parameters equal cero
 	if [ $# -eq 0 ]  ; then 
 		sh gitAutoCommit.sh
 		command reboot
@@ -77,8 +79,6 @@ reboot()
 		command reboot $@
 	fi
 }
-
-EDITOR="nvim"
 
 ####################################3 prompt 
 
