@@ -55,6 +55,7 @@ PATH=$PATH:~/.local/bin:~/.local/bin/statusbar:~/.local/bin/utilities ;
 PATH=$PATH:~/.local/bin/windowsPrograms
 PATH=$PATH:~/.local/bin/pythonUtilities
 PATH=$PATH:~/.local/bin/dwmUtilities
+PKG_CONFIG_PATH=/usr/lib/pkgconfig:/usr/share/pkgconfig
 EDITOR="nvim"
 echo "Startx?? (y,n)"
 read doit 
