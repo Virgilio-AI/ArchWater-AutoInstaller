@@ -46,6 +46,9 @@ alias mount='mount -v'
 alias grep='grep --color'
 alias lg="lazygit"
 alias gitsa='git submodule add'
+alias pbcopy='xsel --clipboard --input'
+alias pbpaste='xsel --clipboard --output'
+alias cpd='pwd|pbcopy'
 #alias pacman="sudo pacman"
 
 
@@ -127,4 +130,5 @@ eval "$(pyenv virtualenv-init -)"
 ## change sudo default editor
 SUDO_EDITOR=/usr/bin/nvim
 export SUDO_EDITOR
+export MANPAGER='nvim +Man!'
 PROMPT='%B%{%F{57}%}%~%{%F{11}%}$(parse_git_branch)%f%b '
