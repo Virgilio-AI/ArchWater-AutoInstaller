@@ -55,6 +55,7 @@ alias cpd='pwd|pbcopy'
 # alias for pacman -> greping errors and warnings
 alias pacman='sudo pacman'
 alias tree='tree -a'
+alias unrar='unrar e'
 # for creating notebooks
 alias create-notebook='python $HOME/.local/bin/create-notebook.py'
 # alias for shutdown commiting all
