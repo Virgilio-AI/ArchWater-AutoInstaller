@@ -49,6 +49,7 @@ alias gitsa='git submodule add'
 alias pbcopy='xsel --clipboard --input'
 alias pbpaste='xsel --clipboard --output'
 alias cpd='pwd|pbcopy'
+alias nv="nvim"
 #alias pacman="sudo pacman"
 
 
@@ -107,14 +108,14 @@ parse_git_branch() {
 setopt PROMPT_SUBST
 set -o GLOB_SUBST
 
-rm ~/.lesshst ;
-[[ -d ~/.pki ]] && rm ~/.pki ; 
-[[ -d ~/.cargo ]] && rm ~/.cargo ; 
-
-rm ~/.fehbg ;
-rm ~/.fzf.bash ; 
-rm ~/.fzf.zsh ;
-rm ~/.wget-hsts ;
+# rm ~/.lesshst ;
+# [[ -d ~/.pki ]] && rm ~/.pki ; 
+# [[ -d ~/.cargo ]] && rm ~/.cargo ; 
+# 
+# rm ~/.fehbg ;
+# rm ~/.fzf.bash ; 
+# rm ~/.fzf.zsh ;
+# rm ~/.wget-hsts ;
 # install brew
 test -d ~/.linuxbrew && eval $(~/.linuxbrew/bin/brew shellenv)
 test -d /home/linuxbrew/.linuxbrew && eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
