@@ -1,5 +1,26 @@
 # /etc/profile
 
+# === 
+# functions
+# ====
+
+
+recurseFolderPath(){
+	# :h for name only
+	# :t for name with extension
+	for file in $1/* ; do
+		if [[ -d $file ]]
+		then
+			recurseFolderPath $file
+		else
+			if [[ -f $file ]]
+			then
+				PATH=$PATH:$folder
+			fi
+		fi
+	done
+}
+
 # Set our umask
 umask 022
 
@@ -51,10 +72,18 @@ unset MANPATH
 #export XDG_CONFIG_HOME="$HOME/.config"
 export ZDOTDIR="$HOME/.config/zsh"
 
-PATH=$PATH:~/.local/bin:~/.local/bin/statusbar:~/.local/bin/utilities ;
-PATH=$PATH:~/.local/bin/windowsPrograms
-PATH=$PATH:~/.local/bin/pythonUtilities
-PATH=$PATH:~/.local/bin/dwmUtilities
+# :h for name only
+# :t for name with extension
+for folder in ~/.local/bin/* ; do
+	if [[ -d $folder ]]
+	then
+		PATH=$PATH:$folder
+	fi
+done
+
+PATH=$PATH:~/.local/bin
+recurseFolderPath ~/.local/bin
+
 PKG_CONFIG_PATH=/usr/lib/pkgconfig:/usr/share/pkgconfig
 EDITOR="nvim"
 echo "Startx?? (y,n)"
