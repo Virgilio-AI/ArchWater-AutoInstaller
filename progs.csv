@@ -200,7 +200,6 @@ A,pandoc,Conversion between markup formats
 A,partclone,Utilities to save and restore used blocks on a partition
 A,parted,"A program for creating, destroying, resizing, checking and copying partitions"
 A,partimage,Partition Image saves partitions in many formats to an image file.
-A,paru,Feature packed AUR helper
 A,pass,"Stores, retrieves, generates, and synchronizes passwords securely"
 A,patch,A utility to apply patch files to original sources
 A,pavucontrol,PulseAudio Volume Control
