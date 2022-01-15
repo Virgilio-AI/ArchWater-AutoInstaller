@@ -4,7 +4,6 @@ A,alsa-utils,Advanced Linux Sound Architecture - Utilities
 A,amd-ucode,Microcode update image for AMD CPUs
 A,android-file-transfer,Android MTP client with minimalistic UI
 A,android-tools,Android platform tools
-A,anki,Helps you remember facts (like words/phrases in a foreign language) efficiently
 A,arandr,Provide a simple visual front end for XRandR 1.2.
 A,arch-install-scripts,Scripts to aid in installing Arch Linux
 A,archinstall,Just another guided/automated Arch Linux installer with a twist
@@ -24,7 +23,6 @@ A,base,Minimal package set to define a basic Arch Linux installation
 A,bind,"A complete, highly portable implementation of the DNS protocol"
 A,binutils,A set of programs to assemble and manipulate binary and object files
 A,bison,The GNU general-purpose parser generator
-A,blender,A fully integrated 3D graphics creation suite
 A,blueberry,Bluetooth configuration tool
 A,bluez,Daemons for the bluetooth protocol stack
 A,bluez-libs,Deprecated libraries for the bluetooth protocol stack
@@ -34,7 +32,6 @@ A,brltty,Braille display driver for Linux/Unix
 A,broadcom-wl,Broadcom 802.11 Linux STA wireless driver
 A,btrfs-progs,Btrfs filesystem utilities
 A,ccls,"C/C++/ObjC language server supporting cross references, hierarchies, completion and semantic highlighting"
-A,clonezilla,ncurses partition and disk imaging/cloning program
 A,cloud-init,The standard for customising cloud instances
 A,cmake,A cross-platform open-source make system
 A,code-minimap,A high performance code minimap render
@@ -45,8 +42,6 @@ A,cups-pdf,PDF printer for cups
 A,cups-pk-helper,A helper that makes system-config-printer use PolicyKit
 A,darkhttpd,A small and secure static webserver
 A,ddrescue,GNU data recovery tool
-A,dhclient,A standalone DHCP client from the dhcp package
-A,dhcpcd,RFC2131 compliant DHCP client daemon
 A,dialog,A tool to display dialog boxes from shell scripts
 A,dmraid,Device mapper RAID interface
 A,dnsmasq,"Lightweight, easy to configure DNS forwarder and DHCP server"
@@ -79,7 +74,6 @@ A,gavrasm,Command line assembler for Atmel AVR microcontrollers with many extend
 A,gawk,GNU version of awk
 A,gcc,The GNU Compiler Collection - C and C++ frontends
 A,gdb,The GNU Debugger
-A,geogebra,"Dynamic mathematics software with interactive graphics, algebra and spreadsheet"
 A,gettext,GNU internationalization library
 A,ghostscript,An interpreter for the PostScript language
 A,gimp,GNU Image Manipulation Program
@@ -119,14 +113,12 @@ A,jfsutils,JFS filesystem utilities
 A,jupyter-notebook,The language-agnostic HTML notebook application for Project Jupyter
 A,jupyterlab,JupyterLab computational environment
 A,kitty-terminfo,"Terminfo for kitty, an OpenGL-based terminal emulator"
-A,ktechlab,IDE for microcontrollers and electronic simulation
 A,lazygit,Simple terminal UI for git commands
 A,lf-git,lf is a terminal file manager written in Go
 A,lftp,Sophisticated command line based FTP client
 A,lib32-gtk3,GObject-based multi-platform GUI toolkit
 A,libcups,The CUPS Printing System - client libraries and headers
 A,libfido2,"Library functionality for FIDO 2.0, including communication with a device over USB"
-A,libreoffice-still,LibreOffice maintenance branch
 A,libtool,A generic library support script
 A,libusb-compat,Library to enable user space application programs to communicate with USB devices
 A,libxft-bgra,libXft with BGRA glyph (color emoji) rendering & scaling patches by Maxime Coste
