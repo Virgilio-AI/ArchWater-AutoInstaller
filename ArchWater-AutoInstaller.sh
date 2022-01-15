@@ -257,6 +257,13 @@ then
 	sudo rsync -aAXv --delete etcZdotdir/ /etc/zsh/
 fi
 
+# rename the repos after the installation
+mv ~/.local/src/Arch_water-dwm-window_manager ~/.local/src/dwm
+mv ~/.local/src/Arch_water-st_terminal ~/.local/src/src/st
+mv ~/.local/src/Arch_water-dwmblocks-status_monitor ~/.local/src/dwmblocks
+mv ~/.local/src/Arch_water-dmenu ~/.local/src/dmenu
+
+
 # Last message! Install complete!
 finalize
 clear
