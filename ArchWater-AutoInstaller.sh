@@ -247,7 +247,7 @@ newperms "%wheel ALL=(ALL) ALL #LARBS
 dialog --title "display manager" --yesno "do you want to have the display manager start on startup?\nthe default option is yes.\nthis will modify /etc/profile file, so if you want to preserve previous configurations of you want to conifgure this file yoursel select no" 14 70
 if [[ $? == 1 ]] 
 then
-	sudo cp profile /etc/profile
+	sudo rsync -aAXv --delete profile /etc/profile
 fi
 dialog --title "zsh configuration" --yesno "do you want to overwrite the zsh configuration?" 17 70
 
