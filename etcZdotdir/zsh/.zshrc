@@ -123,3 +123,5 @@ export PATH="/home/rockhight/.pyenv/bin:$PATH"
 eval "$(pyenv init --path)"
 eval "$(pyenv virtualenv-init -)"
 
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
