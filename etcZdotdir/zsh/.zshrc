@@ -118,10 +118,6 @@ export SUDO_EDITOR
 export MANPAGER='nvim +Man!'
 PROMPT='%B%{%F{57}%}%~%{%F{11}%}$(parse_git_branch)%f%b '
 
-# setting the pyenv 
-export PATH="/home/rockhight/.pyenv/bin:$PATH"
-eval "$(pyenv init --path)"
-eval "$(pyenv virtualenv-init -)"
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
