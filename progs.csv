@@ -79,7 +79,6 @@ A,ghostscript,An interpreter for the PostScript language
 A,gimp,GNU Image Manipulation Program
 A,git,the fast distributed version control system
 A,gnome-disk-utility,Disk Management Utility for GNOME
-A,gnome-keyring,Stores passwords and encryption keys
 A,gnu-netcat,"GNU rewrite of netcat, the network piping application"
 A,gnuplot,"Plotting package which outputs to X11, PostScript, PNG, GIF, and others"
 A,gpart,Partition table rescue/guessing tool
