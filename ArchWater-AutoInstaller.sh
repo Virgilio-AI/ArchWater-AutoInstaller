@@ -267,3 +267,5 @@ mv ~/.local/src/Arch_water-dmenu ~/.local/src/dmenu
 # Last message! Install complete!
 finalize
 clear
+
+
