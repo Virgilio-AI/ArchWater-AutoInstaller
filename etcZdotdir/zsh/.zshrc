@@ -53,6 +53,8 @@ alias nv="nvim"
 #alias pacman="sudo pacman"
 
 
+# alias for dragon previous
+alias dragon-drag-and-drop="dragon"
 # alias for pacman -> greping errors and warnings
 alias pacman='sudo pacman'
 alias tree='tree -a'
