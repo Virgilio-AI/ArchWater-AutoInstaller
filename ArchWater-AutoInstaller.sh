@@ -247,9 +247,8 @@ newperms "%wheel ALL=(ALL) ALL #LARBS
 
 
 mkdir /home/$name/.config/X11
-cp /etc/X11/xinit/xinitrc /home/$name/.config/X11/
-head -n -5 /home/$name/.config/X11/xinitrc > xinit.txt
-cat xinit.txt > /home/$name/.config/xinitrc
+head -n -5 /etc/X11/xinit/xinitrc > xinit.txt
+cp xinit.txt /home/$name/.config/xinitrc
 
 echo "dunst &" >> /home/$name/.config/X11/xinitrc
 echo "mpd &" >> /home/$name/.config/X11/xinitrc
