@@ -214,7 +214,7 @@ git update-index --assume-unchanged "/home/$name/README.md" "/home/$name/LICENSE
 systembeepoff
 
 # Make zsh the default shell for the user.
-chsh -s /bin/zsh "$name" >/dev/null 2>&1
+chsh -s /usr/bin/xonsh "$name" >/dev/null 2>&1
 sudo -u "$name" mkdir -p "/home/$name/.cache/zsh/"
 
 # dbus UUID must be generated for Artix runit.
@@ -244,6 +244,7 @@ killall pulseaudio; sudo -u "$name" pulseaudio --start
 # serveral important commands, `shutdown`, `reboot`, updating, etc. without a password.
 newperms "%wheel ALL=(ALL) ALL #LARBS
 %wheel ALL=(ALL) NOPASSWD: /usr/bin/shutdown,/usr/bin/reboot,/usr/bin/systemctl suspend,/usr/bin/wifi-menu,/usr/bin/mount,/usr/bin/umount,/usr/bin/pacman -Syu,/usr/bin/pacman -Syyu,/usr/bin/packer -Syu,/usr/bin/packer -Syyu,/usr/bin/systemctl restart NetworkManager,/usr/bin/rc-service NetworkManager restart,/usr/bin/pacman -Syyu --noconfirm,/usr/bin/loadkeys,/usr/bin/paru,/usr/bin/pacman -Syyuw --noconfirm"
+
 
 mkdir /home/$name/.config/X11
 cp /etc/X11/xinit/xinitrc /home/$name/.config/X11/
