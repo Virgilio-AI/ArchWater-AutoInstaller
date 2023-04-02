@@ -244,25 +244,17 @@ killall pulseaudio; sudo -u "$name" pulseaudio --start
 # serveral important commands, `shutdown`, `reboot`, updating, etc. without a password.
 newperms "%wheel ALL=(ALL) ALL #LARBS
 %wheel ALL=(ALL) NOPASSWD: /usr/bin/shutdown,/usr/bin/reboot,/usr/bin/systemctl suspend,/usr/bin/wifi-menu,/usr/bin/mount,/usr/bin/umount,/usr/bin/pacman -Syu,/usr/bin/pacman -Syyu,/usr/bin/packer -Syu,/usr/bin/packer -Syyu,/usr/bin/systemctl restart NetworkManager,/usr/bin/rc-service NetworkManager restart,/usr/bin/pacman -Syyu --noconfirm,/usr/bin/loadkeys,/usr/bin/paru,/usr/bin/pacman -Syyuw --noconfirm"
-dialog --title "display manager" --yesno "do you want to have the display manager start on startup?\nthe default option is yes.\nthis will modify /etc/profile file, so if you want to preserve previous configurations of you want to conifgure this file yoursel select no" 14 70
-if [[ $? == 1 ]] 
-then
-	sudo rsync -aAXv --delete profile /etc/profile
-fi
-dialog --title "zsh configuration" --yesno "do you want to overwrite the zsh configuration?" 17 70
 
-if [[ $? == 1 ]] 
-then
-	sudo rsync -aAXv --delete zdotdir/ ~/.config/zsh/
-	sudo rsync -aAXv --delete etcZdotdir/ /etc/zsh/
-fi
+cp /etc/X11/xinit/xinitrc /home/$name/.config/X11/
+head -n -5 /home/$name/.config/X11/xinitrc > xinit.txt
+cat xinit.txt > /home/$name/.config/xinitrc
 
-# rename the repos after the installation
-mv ~/.local/src/Arch_water-dwm-window_manager ~/.local/src/dwm
-mv ~/.local/src/Arch_water-st_terminal ~/.local/src/src/st
-mv ~/.local/src/Arch_water-dwmblocks-status_monitor ~/.local/src/dwmblocks
-mv ~/.local/src/Arch_water-dmenu ~/.local/src/dmenu
-
+echo "dunst &" >> /home/$name/.config/X11/xinitrc
+echo "mpd &" >> /home/$name/.config/X11/xinitrc
+echo "picom &" >> /home/$name/.config/X11/xinitrc
+echo "xscreensaver --no-splash &" >> /home/$name/.config/X11/xinitrc
+echo "" >> /home/$name/.config/X11/xinitrc
+echo "exec awesome &" >> /home/$name/.config/X11/xinitrc
 
 # Last message! Install complete!
 finalize
