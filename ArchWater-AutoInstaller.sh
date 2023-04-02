@@ -246,9 +246,11 @@ newperms "%wheel ALL=(ALL) ALL #LARBS
 %wheel ALL=(ALL) NOPASSWD: /usr/bin/shutdown,/usr/bin/reboot,/usr/bin/systemctl suspend,/usr/bin/wifi-menu,/usr/bin/mount,/usr/bin/umount,/usr/bin/pacman -Syu,/usr/bin/pacman -Syyu,/usr/bin/packer -Syu,/usr/bin/packer -Syyu,/usr/bin/systemctl restart NetworkManager,/usr/bin/rc-service NetworkManager restart,/usr/bin/pacman -Syyu --noconfirm,/usr/bin/loadkeys,/usr/bin/paru,/usr/bin/pacman -Syyuw --noconfirm"
 
 
+rm /home/$name/.config/xinitrc
 mkdir /home/$name/.config/X11
+rm xinit.txt
 head -n -5 /etc/X11/xinit/xinitrc > xinit.txt
-cp xinit.txt /home/$name/.config/xinitrc
+cp xinit.txt /home/$name/.config/X11/xinitrc
 
 echo "dunst &" >> /home/$name/.config/X11/xinitrc
 echo "mpd &" >> /home/$name/.config/X11/xinitrc
