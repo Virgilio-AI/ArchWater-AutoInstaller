@@ -245,6 +245,7 @@ killall pulseaudio; sudo -u "$name" pulseaudio --start
 newperms "%wheel ALL=(ALL) ALL #LARBS
 %wheel ALL=(ALL) NOPASSWD: /usr/bin/shutdown,/usr/bin/reboot,/usr/bin/systemctl suspend,/usr/bin/wifi-menu,/usr/bin/mount,/usr/bin/umount,/usr/bin/pacman -Syu,/usr/bin/pacman -Syyu,/usr/bin/packer -Syu,/usr/bin/packer -Syyu,/usr/bin/systemctl restart NetworkManager,/usr/bin/rc-service NetworkManager restart,/usr/bin/pacman -Syyu --noconfirm,/usr/bin/loadkeys,/usr/bin/paru,/usr/bin/pacman -Syyuw --noconfirm"
 
+mkdir /home/$name/.config/X11
 cp /etc/X11/xinit/xinitrc /home/$name/.config/X11/
 head -n -5 /home/$name/.config/X11/xinitrc > xinit.txt
 cat xinit.txt > /home/$name/.config/xinitrc
@@ -254,7 +255,7 @@ echo "mpd &" >> /home/$name/.config/X11/xinitrc
 echo "picom &" >> /home/$name/.config/X11/xinitrc
 echo "xscreensaver --no-splash &" >> /home/$name/.config/X11/xinitrc
 echo "" >> /home/$name/.config/X11/xinitrc
-echo "exec awesome &" >> /home/$name/.config/X11/xinitrc
+echo "exec awesome" >> /home/$name/.config/X11/xinitrc
 
 # Last message! Install complete!
 finalize
