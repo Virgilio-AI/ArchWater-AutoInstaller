@@ -131,4 +131,5 @@ G,https://github.com/Virgilio-AI/Arch_water-dwm-window_manager.git,is the window
 ,xscreensaver,Screen saver and locker for the X Window System
 ,rofi,A window switcher, application launcher and dmenu replacement
 ,zsh,A very advanced and programmable command interpreter (shell) for UNIX
+A,brave-bin,Web browser that blocks ads and trackers by default (binary release)
 A,awesome-git, the window manager.
