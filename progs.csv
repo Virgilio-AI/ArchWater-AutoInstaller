@@ -1,15 +1,15 @@
 #TAG,NAME IN REPO (or git url),PURPOSE (should be a verb phrase to sound right while installing)
-G,https://github.com/Virgilio-AI/Arch_Water-dwmblocks-status_monitor.git,serves as the modular status bar.
+#G,https://github.com/Virgilio-AI/Arch_Water-dwmblocks-status_monitor.git,serves as the modular status bar.
 G,https://github.com/Virgilio-AI/Arch_Water-dmenu.git,runs commands and provides a UI for selection.
 G,https://github.com/Virgilio-AI/Arch_Water-st_terminal.git,is my custom build of suckless's terminal emulator.
-G,https://github.com/Virgilio-AI/Arch_water-dwm-window_manager.git,is the window manager.
+#G,https://github.com/Virgilio-AI/Arch_water-dwm-window_manager.git,is the window manager.
 ,alsa-utils,Advanced Linux Sound Architecture - Utilities
 ,amd-ucode,Microcode update image for AMD CPUs
-,arch-install-scripts,Scripts to aid in installing Arch Linux
-,archinstall,Just another guided/automated Arch Linux installer with a twist
+#,arch-install-scripts,Scripts to aid in installing Arch Linux
+#,archinstall,Just another guided/automated Arch Linux installer with a twist
 ,b43-fwcutter,firmware extractor for the b43 kernel module
 ,bind-tools,
-,brltty,Braille display driver for Linux/Unix
+#,brltty,Braille display driver for Linux/Unix
 ,broadcom-wl,Broadcom 802.11 Linux STA wireless driver
 ,crda,
 ,darkhttpd,A small and secure static webserver
@@ -24,11 +24,11 @@ G,https://github.com/Virgilio-AI/Arch_water-dwm-window_manager.git,is the window
 ,f2fs-tools,Tools for Flash-Friendly File System (F2FS)
 ,fatresize,A utility to resize FAT filesystems using libparted
 ,fsarchiver,Safe and flexible file-system backup and deployment tool
-,gnu-netcat,GNU rewrite of netcat, the network piping application
+#,gnu-netcat,GNU rewrite of netcat, the network piping application
 ,gpart,Partition table rescue/guessing tool
-,hdparm,A shell utility for manipulating Linux IDE drive/driver parameters
+#,hdparm,A shell utility for manipulating Linux IDE drive/driver parameters
 ,intel-ucode,Microcode update files for Intel CPUs
-,irssi,Modular text mode IRC client with Perl scripting
+#,irssi,Modular text mode IRC client with Perl scripting
 ,jfsutils,JFS filesystem utilities
 ,lftp,Sophisticated command line based FTP client
 ,libfido2,Library functionality for FIDO 2.0, including communication with a device over USB
@@ -56,13 +56,13 @@ G,https://github.com/Virgilio-AI/Arch_water-dwm-window_manager.git,is the window
 ,reflector,A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
 ,reiserfsprogs,Reiserfs utilities
 ,rp-pppoe,Roaring Penguin's Point-to-Point Protocol over Ethernet client
-,rsync,A fast and versatile file copying tool for remote and local files
-,rxvt-unicode-terminfo,Terminfo files for urxvt
-,sdparm,An utility similar to hdparm but for SCSI devices
+#,rsync,A fast and versatile file copying tool for remote and local files
+#,rxvt-unicode-terminfo,Terminfo files for urxvt
+#,sdparm,An utility similar to hdparm but for SCSI devices
 ,sg3_utils,Generic SCSI utilities
 ,smartmontools,Control and monitor S.M.A.R.T. enabled ATA and SCSI Hard Drives
 ,sof-firmware,Sound Open Firmware
-,squashfs-tools,Tools for squashfs, a highly compressed read-only filesystem for Linux
+#,squashfs-tools,Tools for squashfs, a highly compressed read-only filesystem for Linux
 ,syslinux,Collection of boot loaders that boot from FAT, ext2/3/4 and btrfs filesystems, from CDs and via PXE
 ,systemd-resolvconf,systemd resolvconf replacement (for use with systemd-resolved)
 ,tcpdump,Powerful command-line packet analyzer
@@ -70,7 +70,6 @@ G,https://github.com/Virgilio-AI/Arch_water-dwm-window_manager.git,is the window
 ,udftools,Linux tools for UDF filesystems and DVD/CD-R(W) drives
 ,usb_modeswitch,Activating switchable USB devices on Linux.
 ,usbutils,A collection of USB tools to query connected USB devices
-,virtualbox-guest-utils-nox,VirtualBox Guest userspace utilities without X support
 ,wireless-regdb,Central Regulatory Domain Database
 ,wireless_tools,Tools allowing to manipulate the Wireless Extensions
 ,wvdial,A dialer program to connect to the Internet
@@ -98,14 +97,14 @@ G,https://github.com/Virgilio-AI/Arch_water-dwm-window_manager.git,is the window
 ,ranger,Simple, vim-like file manager
 ,python-neovim,
 ,ueberzug,Command line util which allows to display images in combination with X11
-,zathura-pdf-poppler,Adds pdf support to zathura by using the poppler engine
+#,zathura-pdf-poppler,Adds pdf support to zathura by using the poppler engine
 ,highlight,Fast and flexible source code highlighter (CLI version)
 ,hwinfo,Hardware detection tool from openSUSE
 ,vde2,Virtual Distributed Ethernet for emulators like qemu
 ,neofetch,A CLI system information tool written in BASH that supports displaying images.
 ,dwm,A dynamic window manager for X
 ,st,A simple virtual terminal emulator for X.
-,dwmblocks,
+#,dwmblocks,
 ,brave-bin,Web browser that blocks ads and trackers by default (binary release)
 ,paru-bin,Feature packed AUR helper
 ,nvidia,NVIDIA drivers for linux
@@ -115,11 +114,11 @@ G,https://github.com/Virgilio-AI/Arch_water-dwm-window_manager.git,is the window
 ,ncmpcpp,Almost exact clone of ncmpc with some new features
 ,mpd,Flexible, powerful, server-side application for playing music
 ,pavucontrol,PulseAudio Volume Control
-,feh,Fast and light imlib2-based image viewer
+#,feh,Fast and light imlib2-based image viewer
 ,ntp,Network Time Protocol reference implementation
 ,pamixer,Pulseaudio command-line mixer like amixer
 ,expect,A tool for automating interactive applications
-,zenity,Display graphical dialog boxes from shell scripts
+#,zenity,Display graphical dialog boxes from shell scripts
 ,cmake,A cross-platform open-source make system
 ,python-termcolor,ANSI Color formatting for output in terminal
 ,npm,A package manager for javascript
