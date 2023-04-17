@@ -3,245 +3,132 @@ G,https://github.com/Virgilio-AI/Arch_Water-dwmblocks-status_monitor.git,serves 
 G,https://github.com/Virgilio-AI/Arch_Water-dmenu.git,runs commands and provides a UI for selection.
 G,https://github.com/Virgilio-AI/Arch_Water-st_terminal.git,is my custom build of suckless's terminal emulator.
 G,https://github.com/Virgilio-AI/Arch_water-dwm-window_manager.git,is the window manager.
-,filesystem, no description currently.
-,gcc-libs, no description currently.
-,glibc, no description currently.
-,bash, no description currently.
-,coreutils, no description currently.
-,file, no description currently.
-,findutils, no description currently.
-,gawk, no description currently.
-,grep, no description currently.
-,procps-ng, no description currently.
-,sed, no description currently.
-,tar, no description currently.
-,gettext, no description currently.
-,pciutils, no description currently.
-,psmisc, no description currently.
-,shadow, no description currently.
-,util-linux, no description currently.
-,bzip2, no description currently.
-,gzip, no description currently.
-,xz, no description currently.
-,licenses, no description currently.
-,pacman, no description currently.
-,systemd, no description currently.
-,systemd-sysvcompat, no description currently.
-,iputils, no description currently.
-,iproute2, no description currently.
-,alsa-utils, no description currently.
-,amd-ucode, no description currently.
-,arch-install-scripts, no description currently.
-,archinstall, no description currently.
-,b43-fwcutter, no description currently.
-,bind-tools, no description currently.
-,brltty, no description currently.
-,broadcom-wl, no description currently.
-,btrfs-progs, no description currently.
-,clonezilla, no description currently.
-,cloud-init, no description currently.
-,crda, no description currently.
-,cryptsetup, no description currently.
-,darkhttpd, no description currently.
-,ddrescue, no description currently.
-,dhclient, no description currently.
-,dhcpcd, no description currently.
-,diffutils, no description currently.
-,dmraid, no description currently.
-,dnsmasq, no description currently.
-,dosfstools, no description currently.
-,e2fsprogs, no description currently.
-,edk2-shell, no description currently.
-,efibootmgr, no description currently.
-,espeakup, no description currently.
-,ethtool, no description currently.
-,exfatprogs, no description currently.
-,f2fs-tools, no description currently.
-,fatresize, no description currently.
-,fsarchiver, no description currently.
-,gnu-netcat, no description currently.
-,gpart, no description currently.
-,gpm, no description currently.
-,gptfdisk, no description currently.
-,grml-zsh-config, no description currently.
-,hdparm, no description currently.
-,intel-ucode, no description currently.
-,irssi, no description currently.
-,jfsutils, no description currently.
-,kitty-terminfo, no description currently.
-,less, no description currently.
-,lftp, no description currently.
-,libfido2, no description currently.
-,libusb-compat, no description currently.
-,linux, no description currently.
-,linux-atm, no description currently.
-,linux-firmware, no description currently.
-,livecd-sounds, no description currently.
-,lsscsi, no description currently.
-,lvm2, no description currently.
-,lynx, no description currently.
-,man-db, no description currently.
-,man-pages, no description currently.
-,mc, no description currently.
-,mdadm, no description currently.
-,memtest86+, no description currently.
-,mkinitcpio, no description currently.
-,mkinitcpio-archiso, no description currently.
-,mkinitcpio-nfs-utils, no description currently.
-,modemmanager, no description currently.
-,mtools, no description currently.
-,nano, no description currently.
-,nbd, no description currently.
-,ndisc6, no description currently.
-,nfs-utils, no description currently.
-,nilfs-utils, no description currently.
-,nmap, no description currently.
-,ntfs-3g, no description currently.
-,nvme-cli, no description currently.
-,openconnect, no description currently.
-,openssh, no description currently.
-,openvpn, no description currently.
-,partclone, no description currently.
-,parted, no description currently.
-,partimage, no description currently.
-,pcsclite, no description currently.
-,ppp, no description currently.
-,pptpclient, no description currently.
-,pv, no description currently.
-,qemu-guest-agent, no description currently.
-,reflector, no description currently.
-,reiserfsprogs, no description currently.
-,rp-pppoe, no description currently.
-,rsync, no description currently.
-,rxvt-unicode-terminfo, no description currently.
-,screen, no description currently.
-,sdparm, no description currently.
-,sg3_utils, no description currently.
-,smartmontools, no description currently.
-,sof-firmware, no description currently.
-,squashfs-tools, no description currently.
-,sudo, no description currently.
-,syslinux, no description currently.
-,systemd-resolvconf, no description currently.
-,tcpdump, no description currently.
-,terminus-font, no description currently.
-,testdisk, no description currently.
-,tmux, no description currently.
-,tpm2-tss, no description currently.
-,udftools, no description currently.
-,usb_modeswitch, no description currently.
-,usbmuxd, no description currently.
-,usbutils, no description currently.
-,virtualbox-guest-utils-nox, no description currently.
-,vpnc, no description currently.
-,wireless-regdb, no description currently.
-,wireless_tools, no description currently.
-,wpa_supplicant, no description currently.
-,wvdial, no description currently.
-,xfsprogs, no description currently.
-,xl2tpd, no description currently.
-,zsh, no description currently.
-,linux-firmware-qlogic, no description currently.
-,neovim, no description currently.
-,xclip, no description currently.
-,xorg-server, no description currently.
-,xorg-xinit, no description currently.
-,xorg-xrandr, no description currently.
-,xorg-xsetroot, no description currently.
-,picom, no description currently.
-,wget, no description currently.
-,xf86-video-amdgpu, no description currently.
-,xf86-video-ati, no description currently.
-,mesa, no description currently.
-,xf86-video-nouveau, no description currently.
-,xorg-xkbcomp, no description currently.
-,xf86-video-dummy, no description currently.
-,xf86-video-fbdev, no description currently.
-,xf86-video-openchrome, no description currently.
-,xf86-video-vesa, no description currently.
-,xf86-video-vmware, no description currently.
-,xf86-input-elographics, no description currently.
-,xf86-input-evdev, no description currently.
-,xf86-input-libinput, no description currently.
-,xf86-input-vmmouse, no description currently.
-,xf86-input-void, no description currently.
-,nvidia-settings, no description currently.
-,mesa-utils, no description currently.
-,dnsutils, no description currently.
-,dhcpcd, no description currently.
-,ranger, no description currently.
-,python-neovim, no description currently.
-,ueberzug, no description currently.
-,zathura, no description currently.
-,zathura-pdf-poppler, no description currently.
-,highlight, no description currently.
-,archlinux-keyring, no description currently.
-,hwinfo, no description currently.
-,vde2, no description currently.
-,neofetch, no description currently.
-,networkmanager, no description currently.
-,zsh-completions, no description currently.
-,zsh-syntax-highlighting, no description currently.
-,dwm, no description currently.
-,st, no description currently.
-,dwmblocks, no description currently.
-,brave-bin, no description currently.
-,dmenu, no description currently.
-,paru-bin, no description currently.
-,git, no description currently.
-,ttf-font, no description currently.
-,dialog, no description currently.
-,curl, no description currently.
-,grub, no description currently.
-,make, no description currently.
-,nvidia, no description currently.
-,mesa-libgl, no description currently.
-,xf86-video-nouveau, no description currently.
-,opencl-nvidia, no description currently.
-,autoconf, no description currently.
-,automake, no description currently.
-,binutils, no description currently.
-,bison, no description currently.
-,fakeroot, no description currently.
-,flex, no description currently.
-,gcc, no description currently.
-,groff, no description currently.
-,libtool, no description currently.
-,m4, no description currently.
-,patch, no description currently.
-,pkgconf, no description currently.
-,texinfo, no description currently.
-,which, no description currently.
-,qutebrowser, no description currently.
-,vim, no description currently.
-,python-adblock, no description currently.
-,ncmpcpp, no description currently.
-,mpd, no description currently.
-,pavucontrol, no description currently.
-,feh, no description currently.
-,ntp, no description currently.
-,pamixer, no description currently.
-,pulseaudio, no description currently.
-,openssl, no description currently.
-,dbus, no description currently.
-,sqlite, no description currently.
-,rust, no description currently.
-,expect, no description currently.
-,net-tools, no description currently.
-,zenity, no description currently.
-,nodejs, no description currently.
-,cmake, no description currently.
-,xdotool, no description currently.
-,python-termcolor, no description currently.
-,npm, no description currently.
-,gtk2, no description currently.
-,python-pip, no description currently.
-,jupyter-notebook, no description currently.
-,pass, no description currently.
-,gnu-free-fonts, no description currently.
-,xonsh, no description currently.
-,libxft, no description currently.
-,dunst, for notifications.
-,xscreensaver, for screen saver.
-,rofi, for notifications.
+,alsa-utils,Advanced Linux Sound Architecture - Utilities
+,amd-ucode,Microcode update image for AMD CPUs
+,arch-install-scripts,Scripts to aid in installing Arch Linux
+,archinstall,Just another guided/automated Arch Linux installer with a twist
+,b43-fwcutter,firmware extractor for the b43 kernel module
+,bind-tools,
+,brltty,Braille display driver for Linux/Unix
+,broadcom-wl,Broadcom 802.11 Linux STA wireless driver
+,crda,
+,darkhttpd,A small and secure static webserver
+,ddrescue,GNU data recovery tool
+,dhcpcd,RFC2131 compliant DHCP client daemon
+,dnsmasq,Lightweight, easy to configure DNS forwarder and DHCP server
+,edk2-shell,EDK2 UEFI Shell
+,efibootmgr,Linux user-space application to modify the EFI Boot Manager
+,espeakup,A light weight connector for espeak-ng and speakup
+,ethtool,Utility for controlling network drivers and hardware
+,exfatprogs,exFAT filesystem userspace utilities for the Linux Kernel exfat driver
+,f2fs-tools,Tools for Flash-Friendly File System (F2FS)
+,fatresize,A utility to resize FAT filesystems using libparted
+,fsarchiver,Safe and flexible file-system backup and deployment tool
+,gnu-netcat,GNU rewrite of netcat, the network piping application
+,gpart,Partition table rescue/guessing tool
+,hdparm,A shell utility for manipulating Linux IDE drive/driver parameters
+,intel-ucode,Microcode update files for Intel CPUs
+,irssi,Modular text mode IRC client with Perl scripting
+,jfsutils,JFS filesystem utilities
+,lftp,Sophisticated command line based FTP client
+,libfido2,Library functionality for FIDO 2.0, including communication with a device over USB
+,libusb-compat,Library to enable user space application programs to communicate with USB devices
+,linux-atm,Drivers and tools to support ATM networking under Linux.
+,linux-firmware,Firmware files for Linux
+,livecd-sounds,Sound files for accessibility features in a boot medium
+,lsscsi,A tool that lists devices connected via SCSI and its transports
+,man-pages,Linux man pages
+,mc,A file manager that emulates Norton Commander
+,memtest86+,Advanced memory diagnostic tool legacy BIOS version
+,mkinitcpio-archiso,Initcpio scripts used by archiso
+,mkinitcpio-nfs-utils,ipconfig and nfsmount tools for NFS root support in mkinitcpio
+,modemmanager,Mobile broadband modem management service
+,mtools,A collection of utilities to access MS-DOS disks
+,nbd,tools for network block devices, allowing you to use remote block devices over TCP/IP
+,ndisc6,Collection of IPv6 networking utilities
+,nfs-utils,Support programs for Network File Systems
+,nvme-cli,NVM-Express user space tooling for Linux
+,openconnect,Open client for Cisco AnyConnect VPN
+,openvpn,An easy-to-use, robust and highly configurable VPN (Virtual Private Network)
+,pptpclient,Client for the proprietary Microsoft Point-to-Point Tunneling Protocol, PPTP.
+,pv,A terminal-based tool for monitoring the progress of data through a pipeline.
+,qemu-guest-agent,QEMU Guest Agent
+,reflector,A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
+,reiserfsprogs,Reiserfs utilities
+,rp-pppoe,Roaring Penguin's Point-to-Point Protocol over Ethernet client
+,rsync,A fast and versatile file copying tool for remote and local files
+,rxvt-unicode-terminfo,Terminfo files for urxvt
+,sdparm,An utility similar to hdparm but for SCSI devices
+,sg3_utils,Generic SCSI utilities
+,smartmontools,Control and monitor S.M.A.R.T. enabled ATA and SCSI Hard Drives
+,sof-firmware,Sound Open Firmware
+,squashfs-tools,Tools for squashfs, a highly compressed read-only filesystem for Linux
+,syslinux,Collection of boot loaders that boot from FAT, ext2/3/4 and btrfs filesystems, from CDs and via PXE
+,systemd-resolvconf,systemd resolvconf replacement (for use with systemd-resolved)
+,tcpdump,Powerful command-line packet analyzer
+,testdisk,Checks and undeletes partitions + PhotoRec, signature based recovery tool
+,udftools,Linux tools for UDF filesystems and DVD/CD-R(W) drives
+,usb_modeswitch,Activating switchable USB devices on Linux.
+,usbutils,A collection of USB tools to query connected USB devices
+,virtualbox-guest-utils-nox,VirtualBox Guest userspace utilities without X support
+,wireless-regdb,Central Regulatory Domain Database
+,wireless_tools,Tools allowing to manipulate the Wireless Extensions
+,wvdial,A dialer program to connect to the Internet
+,xl2tpd,an open source implementation of the L2TP maintained by Xelerance Corporation
+,linux-firmware-qlogic,Firmware files for Linux - qlogic / Firmware for QLogic devices
+,neovim,Fork of Vim aiming to improve user experience, plugins, and GUIs
+,xclip,Command line interface to the X11 clipboard
+,xorg-xsetroot,Classic X utility to set your root window background to a given pattern or color
+,picom,X compositor that may fix tearing issues
+,wget,Network utility to retrieve files from the Web
+,xf86-video-amdgpu,X.org amdgpu video driver
+,xf86-video-ati,X.org ati video driver
+,xf86-video-nouveau,Open Source 3D acceleration driver for nVidia cards
+,xf86-video-dummy,X.org dummy video driver
+,xf86-video-fbdev,X.org framebuffer video driver
+,xf86-video-openchrome,X.Org Openchrome drivers
+,xf86-video-vesa,X.org vesa video driver
+,xf86-video-vmware,X.org vmware video driver
+,xf86-input-elographics,X.org Elographics TouchScreen input driver
+,xf86-input-evdev,X.org evdev input driver
+,xf86-input-vmmouse,X.org VMWare Mouse input driver
+,xf86-input-void,X.org void input driver
+,mesa-utils,Essential Mesa utilities
+,dnsutils,
+,ranger,Simple, vim-like file manager
+,python-neovim,
+,ueberzug,Command line util which allows to display images in combination with X11
+,zathura-pdf-poppler,Adds pdf support to zathura by using the poppler engine
+,highlight,Fast and flexible source code highlighter (CLI version)
+,hwinfo,Hardware detection tool from openSUSE
+,vde2,Virtual Distributed Ethernet for emulators like qemu
+,neofetch,A CLI system information tool written in BASH that supports displaying images.
+,dwm,A dynamic window manager for X
+,st,A simple virtual terminal emulator for X.
+,dwmblocks,
+,brave-bin,Web browser that blocks ads and trackers by default (binary release)
+,paru-bin,Feature packed AUR helper
+,nvidia,NVIDIA drivers for linux
+,mesa-libgl,
+,xf86-video-nouveau,Open Source 3D acceleration driver for nVidia cards
+,opencl-nvidia,OpenCL implemention for NVIDIA
+,ncmpcpp,Almost exact clone of ncmpc with some new features
+,mpd,Flexible, powerful, server-side application for playing music
+,pavucontrol,PulseAudio Volume Control
+,feh,Fast and light imlib2-based image viewer
+,ntp,Network Time Protocol reference implementation
+,pamixer,Pulseaudio command-line mixer like amixer
+,expect,A tool for automating interactive applications
+,zenity,Display graphical dialog boxes from shell scripts
+,cmake,A cross-platform open-source make system
+,python-termcolor,ANSI Color formatting for output in terminal
+,npm,A package manager for javascript
+,python-pip,The PyPA recommended tool for installing Python packages
+,jupyter-notebook,The language-agnostic HTML notebook application for Project Jupyter
+,pass,Stores, retrieves, generates, and synchronizes passwords securely
+,xonsh,Python-powered, cross-platform, Unix-gazing shell
+,dunst,Customizable and lightweight notification-daemon
+,xscreensaver,Screen saver and locker for the X Window System
+,rofi,A window switcher, application launcher and dmenu replacement
+,zsh,A very advanced and programmable command interpreter (shell) for UNIX
 A,awesome-git, the window manager.
